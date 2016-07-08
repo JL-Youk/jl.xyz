@@ -8,12 +8,13 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
 		<link rel="author" href="https://plus.google.com/u/0/+JeanLouisFeuvrier"/>
 		<link rel="stylesheet" type="text/css" href="css/reset.css">
+		<link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css">
 		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 		<link rel="stylesheet" type="text/css" href="css/style.css">
 		<script src="js/jquery-1.12.4.min.js"></script>
 		<script src="js/bootstrap.min.js"></script>
-		<script src="js/scrollreveal.min.js"></script>
 		<script src="js/typed.js"></script>
+		<script src="js/jquery.fullPage.js"></script>
 		<script src="js/script.js"></script>
 		<title>FromPixel.com</title>
 			<meta name="Content-Type" content="UTF-8">
@@ -38,7 +39,7 @@
 			<meta name="DC.Revisit-After" content="15 days">
 			<meta name="DC.Robots" content="all">
 			<meta name="DC.Rating" content="general">
-			<meta name="DC.Distribution" content="global">
+			<meta name="DC.Distribution" content="global"> 
 			<meta name="DC.Category" content="internet">
 <style>
 
@@ -48,26 +49,17 @@
 
 <body>
 
-  <div class="debug">
-    <label><input type="checkbox"> Debug</label>
-  </div>
-
-  <div class="parallax">
-    <div id="group1" class="parallax__group">
-      <div class="parallax__layer parallax__layer--base">
-        <div class="title HiHey">
+<div id="fullpage">
+	<div class="section" id="section0">
+		<div class="title HiHey">
         	<span id="hiheyhello">Hey</span>
         </div>
-      </div>
-
-      	<img id="imgscrolldown" src="img/ChevronDownCircle-128_blanc.png">
-
-    </div>
-    <div id="group2" class="parallax__group">
-      <div class="parallax__layer parallax__layer--base">
-        <div class="container">
+        <img id="imgscrolldown" src="img/ChevronDownCircle-128_blanc.png">
+	</div>
+	<div class="section" id="section1">
+		<div class="container">
 	        <div class="row">
-	        	<div class="col-md-6 col-md-offset-6 MesInfos">
+	        	<div id="presentation" class="col-md-6 col-md-offset-6 MesInfos">
 	        		<h1> Jean-Louis FEUVRIER </h1>
 					<h2>Développeur web freelance</h2>
 					<p>
@@ -82,133 +74,109 @@
 	        	</div>
 	        </div>
         </div>
-      </div>
-      <div class="parallax__layer parallax__layer--back">
-      	<div class="container">
-            <div class="col-md-6 InfoBackground">
-        		<p> Presentation </p>
-        	</div>
-        </div>
-      </div>
-    </div>
-    <div id="group3" class="parallax__group">
-      <div class="parallax__layer parallax__layer--fore">
-			<div class="container">
-			  <br>
-			  <div id="myCarousel" class="carousel slide" data-ride="carousel">
-			    <!-- Indicators -->
-			    <ol class="carousel-indicators">
-			      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-			      <li data-target="#myCarousel" data-slide-to="1"></li>
-			      <li data-target="#myCarousel" data-slide-to="2"></li>
-			      <li data-target="#myCarousel" data-slide-to="3"></li>
-			      <li data-target="#myCarousel" data-slide-to="4"></li>
-			    </ol>
+	</div>
+	<div class="section" id="section2">
+		<div class="slide" id="slide1">
+			<span class="titre_section"><h2>AlphaB</h2></span>
+			<img class="imgCarrousel" src="ressources/AlphaB.png" alt="AlphaB" >
+			<p>
+				AlphaB est un mini jeux basé sur les reflexes et la connaissance du clavier de l'utilisateur.
+			</p>
+		</div>
 
-			    <!-- Wrapper for slides -->
-			    <div class="carousel-inner" role="listbox">
-
-			      <div class="item active">
-			        <img class="imgCarrousel" src="ressources/AlphaB.png" alt="AlphaB" >
-			        <div class="carousel-caption">
-			          <h3>AlphaB</h3>
-			          <p> AlphaB est un mini jeux basé sur les reflexes et la connaissance du clavier de l'utilisateur.</p>
-			        </div>
-			      </div>
-
-			      <div class="item">
-			        <img class="imgCarrousel" src="ressources/lolstat.PNG" alt="lols stats">
-			        <div class="carousel-caption">
-			          <h3>Lolstat</h3>
-			          <p> Lolstat est un site qui utilise API de RIOT, et permet de récupérer differentes statistiques de comptes invocateurs de league of legends.</p>
-			        </div>
-			      </div>
-			    
-			      <div class="item">
-			        <img class="imgCarrousel" src="ressources/atelierdelalunecramoisie.png" alt="atelier de la lune cramoisie">
-			        <div class="carousel-caption">
-			          <h3>Atelier de la lune cramoisie</h3>
-			          <p>L'atelier de la lune cramoisie est une entreprise de création et fabrication en cuir entièrement artisanales.</p>
-			        </div>
-			      </div>
-
-			      <div class="item">
-			        <img class="imgCarrousel" src="ressources/Alien portal5.jpg" alt="Alien portal">
-			        <div class="carousel-caption">
-			          <h3>PortaaaAAL</h3>
-			          <p>Design pour le site qwertee.com.</p>
-			        </div>
-			      </div>
-
-			      <div class="item">
-			        <img class="imgCarrousel" src="ressources/75074.jpg" alt="Alien portal">
-			        <div class="carousel-caption">
-			          <h3>Tournée du chat de Cheshire</h3>
-			          <p>Design pour le site qwertee.com.</p>
-			        </div>
-			      </div>
-			  
-			    </div>
-
-			    <!-- Left and right controls -->
-			    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-			      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-			      <span class="sr-only">Previous</span>
-			    </a>
-			    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-			      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-			      <span class="sr-only">Next</span>
-			    </a>
-			  </div>
-			</div>
-      </div>
-      <div class="parallax__layer parallax__layer--base">
-        <div class="title">Base Layer</div>
-      </div>
-    </div>
-    <div id="group4" class="parallax__group">
-      <div class="parallax__layer parallax__layer--base">
-        <div class="title">Base Layer</div>
-      </div>
-      <div class="parallax__layer parallax__layer--back">
-        <div class="title">Background Layer</div>
-      </div>
-      <div class="parallax__layer parallax__layer--deep">
-        <div class="title">Deep Background Layer</div>
-      </div>
-    </div>
-    <div id="group5" class="parallax__group">
-      <div class="parallax__layer parallax__layer--fore">
-        <div class="title">Foreground Layer</div>
-      </div>
-      <div class="parallax__layer parallax__layer--base">
-        <div class="title">Base Layer</div>
-      </div>
-    </div>
-    <div id="group6" class="parallax__group">
-      <div class="parallax__layer parallax__layer--back">
-        <div class="title">Background Layer</div>
-      </div>
-      <div class="parallax__layer parallax__layer--base">
-        <div class="title">Base Layer</div>
-      </div>
-    </div>
-    <div id="group7" class="parallax__group">
-      <div class="parallax__layer parallax__layer--base">
-        <div class="title">Base Layer</div>
-      </div>
-    </div>
-  </div>
-
-  <script>
-    var debugInput = document.querySelector("input");
-    function updateDebugState() {
-        document.body.classList.toggle('debug-on', debugInput.checked);
-    }
-    debugInput.addEventListener("click", updateDebugState);
-    updateDebugState();
-  </script>
-
-
+	    <div class="slide" id="slide2">
+			<span class="titre_section"><h2>Lolstat</h2></span>
+			<img class="imgCarrousel" src="ressources/lolstat.PNG" alt="AlphaB" >
+			<p>
+				Lolstat est un site qui utilise API de RIOT, et permet de récupérer differentes statistiques de comptes invocateurs de league of legends.
+			</p>
+		</div>
+		<div class="slide" id="slide3">
+			<span class="titre_section"><h2>Atelier de la lune cramoisie</h2></span>
+			<img class="imgCarrousel" src="ressources/atelierdelalunecramoisie.png" alt="AlphaB" >
+			<p>
+				L'atelier de la lune cramoisie est une entreprise de création et fabrication en cuir entièrement artisanales.
+			</p>
+		</div>
+		<div class="slide" id="slide4">
+			<span class="titre_section"><h2>PortaaaAAL</h2></span>
+			<img class="imgCarrousel" src="ressources/Alien portal5.jpg alt="AlphaB" >
+			<p>
+				Design pour le site qwertee.com.
+			</p>
+		</div>
+		<div class="slide" id="slide5">
+			<span class="titre_section"><h2>Tournée du chat de Cheshire</h2></span>
+			<img class="imgCarrousel" src="ressources/75074.jpg alt="AlphaB" >
+			<p>
+				Design pour le site qwertee.com.
+			</p>
+		</div>
+	</div>
+	<div class="section" id="section3">
+		<div class="container">
+	        <div class="row">
+	        	<span class="titre_section"><h2>Competences</h2></span>
+	        </div>
+	        <div class="row">
+	        	<div class="col-md-4 detail_competence">
+	        		<div>
+	        			<h3>Language</h3>
+	        		</div>
+	        		<div>
+	        			<img src="img/html5-128.png">
+	        		</div>
+	        		<div>
+	        			<img src="img/css3-128.png">
+	        		</div>
+	        		<div>
+	        			<img src="img/code-programming-php-software-develop-command-language-128.png">
+	        		</div>
+	        		<div>
+	        			<img src="img/javascript-128.png">
+	        		</div>
+	        		<div>
+	        			<img src="img/java-128.png">
+	        		</div>
+	        	</div>
+	        	<div class="col-md-4 detail_competence">
+	        		<div>
+	        			<h3>logiciel</h3>
+	        		</div>
+	        		<div>
+	        			<img src="img/sublime-text-3-128.png">
+	        		</div>
+	        		<div>
+	        			<img src="img/adobe-photoshop-design-ps-psd-graphics-cc-128.png">
+	        		</div>
+	        	</div>
+	        	<div class="col-md-4 detail_competence">
+	        		<div>
+	        			<h3>framework</h3>
+	        		</div>
+	        		<div>
+	        			<img src="img/code-programming-javascript-jquery-develop-framework-language-128.png">
+	        		</div>
+	        		<div>
+	        			<img src="img/angularjs-128.png">
+	        		</div>
+	        	</div>
+	        	
+	        </div>
+	    </div>
+	</div>
+	<div class="section" id="section4">
+		<div class="container">
+	        <div class="row">
+	        	<span class="titre_section"><h2>Contact</h2></span>
+	        </div>
+	        <div>
+	        	<p>N’hésitez pas à me contacter pour me soumettre un projet ou une collaboration, obtenir un devis ou un rendez-vous.</p>
+	        </div>
+	    </div>
+	</div>
+</div>
+	<div id="fp-nav" class="right" style="margin-top: -43.5px;"><ul>
+	</div>
 </body>
 </html>

@@ -1,15 +1,11 @@
-# humanstxt.org/
-# The humans responsible & technology colophon
+/* SITE */
+    Site name: frompixel
+    Site URL: http://frompixel.com
+    Built with: bootstrap
+    
+    propriétaire : frompixel
+    date de mise en ligne : 15/07/2016
 
-# TEAM
-
-    <name> -- <role> -- <twitter>
-
-# THANKS
-
-    <name>
-
-# TECHNOLOGY COLOPHON
-
-    HTML5, CSS3
-    Normalize.css, jQuery, Modernizr
+    design: Feuvrier jean-louis
+    URL: http://frompixel.com
+    Location: France
