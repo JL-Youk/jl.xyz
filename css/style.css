@@ -43,25 +43,35 @@
   }
 
 #section0{
-    background: -webkit-gradient(linear, top left, bottom left, from(#4bbfc3), to(#7baabe));
-    background: -webkit-linear-gradient(#4BBFC3, #7BAABE);
-    background: linear-gradient(#4BBFC3,#7BAABE);
+    background: -webkit-gradient(linear, top left, bottom left, from(#4964DD), to(#49D3D8));
+    background: -webkit-linear-gradient(#4964DD, #49D3D8);
+    background: linear-gradient(#4964DD,#49D3D8);
   }
 #section1{
-    background: -webkit-gradient(linear, top left, bottom left, from(#7BAABE), to(#dee9ed));
-    background: -webkit-linear-gradient(#7BAABE, #dee9ed);
-    background: linear-gradient(#7BAABE,#dee9ed);
+    background: -webkit-gradient(linear, top left, bottom left, from(#49D3D8), to(#1FE180));
+    background: -webkit-linear-gradient(#49D3D8, #1FE180);
+    background: linear-gradient(#49D3D8,#1FE180);
   }
 #section2{
-    background: #1BBC9B;
+    background: -webkit-gradient(linear, top left, bottom left, from(#1FE180), to(#1FE180));
+    background: -webkit-linear-gradient(#1FE180, #1FE180);
+    background: linear-gradient(#1FE180,#1FE180);
   }
 #section3{
-    background: #4BBFC3;
+    background: -webkit-gradient(linear, top left, bottom left, from(#FDA72C), to(#DE4A6C));
+    background: -webkit-linear-gradient(#FDA72C, #DE4A6C);
+    background: linear-gradient(#FDA72C,#DE4A6C);
   }
 #section4{
-    background: #7BAABE;
+    background: -webkit-gradient(linear, top left, bottom left, from(#DD4971), to(#A349DE));
+    background: -webkit-linear-gradient(#DD4971, #A349DE);
+    background: linear-gradient(#DD4971,#A349DE);
   }
-
+#section5{
+    background: -webkit-gradient(linear, top left, bottom left, from(#A349DE), to(#A349DE));
+    background: -webkit-linear-gradient(#A349DE, #A349DE);
+    background: linear-gradient(#A349DE,#A349DE);
+  }
 #presentation{
   transform: translateX(500px);
   opacity: 0;
@@ -316,7 +326,7 @@ FxN+FXcAAAAAAf//AAJ42mNgZGBg4ANiCQYQYGJgBMIkIGYB8xgACIAAlQAAAHjaY2BgYGQAgmOp
     margin-top: 30%;
 }
 .imgCarrousel{
-    max-height: 430px;
+    max-height: 100%;
     margin: auto;
 }
 .titre_section{
@@ -327,6 +337,9 @@ FxN+FXcAAAAAAf//AAJ42mNgZGBg4ANiCQYQYGJgBMIkIGYB8xgACIAAlQAAAHjaY2BgYGQAgmOp
 }
 .detail_competence{
   text-align: center;
+}
+.detail_competence img{
+  width: 120px;
 }
 .carousel-caption {
     text-shadow: 1px 1px 6px rgb(0, 0, 0);
