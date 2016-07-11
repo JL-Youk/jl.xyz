@@ -1,6 +1,6 @@
 $( document ).ready(function() {
 	$("#hiheyhello").typed({
-        strings: ["Hi", "Hey","Hello","Hallo","Salâm","Demat","Ola","Buenos dias","Kalimera","Bonjour","Guten Tag","добър ден","Buongiorno","Bondjoû"],
+        strings: ["Hi", "Hey","Hello","Bonjour","Hallo","Salâm","Demat","Ola","Buenos dias","Kalimera","Guten Tag","добър ден","Buongiorno","Bondjoû"],
         typeSpeed: 75,
             // time before typing starts
         startDelay: 0,
@@ -25,7 +25,13 @@ $( document ).ready(function() {
 
                 'afterLoad': function(anchorLink, index){
                     if(index == 2){
-                        $('#presentation, #iphone2, #iphone4').addClass('active');
+                        $('#presentation').addClass('active');
+                    }
+                    else if(index == 4){
+                        $('#idcomp').addClass('apparition');
+                    }
+                    else{
+
                     }
                 },
 

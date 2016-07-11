@@ -28,7 +28,26 @@
     transform: translate(-50%, -50%);
   }
 
-
+.pagedown{
+    bottom: 10px;
+    left: 50%;
+    z-index: 10;
+    position: absolute;
+    display: flex;
+     -webkit-transform: translate(-50%, 0%);
+    transform: translate(-50%, 0%);
+}
+.pagedown img {
+    width: 60px;
+    height: 60px;
+    margin: 0px 6px;
+}.pagedown p{
+    margin: auto;
+    font-size: 14px;
+    color: #ecf0f1;
+    text-shadow: 1px 1px #1d1d1d;
+    text-align:center;
+}
 
   /* style the groups
   --------------------------------------------- */
@@ -320,6 +339,16 @@ FxN+FXcAAAAAAf//AAJ42mNgZGBg4ANiCQYQYGJgBMIkIGYB8xgACIAAlQAAAHjaY2BgYGQAgmOp
 .MesInfos p{
     font-size: 20px;
 }
+#idcomp{
+  opacity: 0;
+}
+.apparition{
+  opacity: 1!important;
+    -webkit-transition: all 0.7s ease-out;
+  -moz-transition: all 0.7s ease-out;
+  -o-transition: all 0.7s ease-out;
+  transition: all 0.7s ease-out;
+}
 .InfoBackground{
     color: #ecf0f1;
     font-family: monospace;
@@ -339,7 +368,7 @@ FxN+FXcAAAAAAf//AAJ42mNgZGBg4ANiCQYQYGJgBMIkIGYB8xgACIAAlQAAAHjaY2BgYGQAgmOp
   text-align: center;
 }
 .detail_competence img{
-  width: 120px;
+  width: 100%;
 }
 .carousel-caption {
     text-shadow: 1px 1px 6px rgb(0, 0, 0);
@@ -359,13 +388,5 @@ FxN+FXcAAAAAAf//AAJ42mNgZGBg4ANiCQYQYGJgBMIkIGYB8xgACIAAlQAAAHjaY2BgYGQAgmOp
     background-image: none;
     background-repeat: repeat-x;
 }
-#imgscrolldown{
-    bottom: 10px;
-    z-index: 10;
-    position: absolute;
-    left: 0;
-    right: 0;
-    margin: auto;
-    width: 100px;
-}
+
 
