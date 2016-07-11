@@ -30,6 +30,9 @@ $( document ).ready(function() {
                     else if(index == 4){
                         $('#idcomp1, #idcomp2, #idcomp3, #idcomp4, #idcomp5, #idcomp6, #idcomp7, #idcomp8, #idcomp9, #idcomp10, #idcomp11, #idcomp12, #idcomp0-1, #idcomp6-1').addClass('apparition');
                     }
+                    else if(index == 5){
+                        $('#contactform_contact, #social1, #social2, #social3, #social4').addClass('apparitionsocial');
+                    }
                     else{
 
                     }
