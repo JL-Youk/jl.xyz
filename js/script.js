@@ -24,17 +24,31 @@ $( document ).ready(function() {
                 'navigationPosition': 'right',
 
                 'afterLoad': function(anchorLink, index){
-                    if(index == 2){
+                    if(index == 1){
+                        remove_class();
+                    }
+                    else if(index == 2){
+                        remove_class();
                         $('#presentation').addClass('active');
                     }
+                    else if(index == 3){
+                        remove_class();
+                    }
                     else if(index == 4){
+                        remove_class();
                         $('#idcomp1, #idcomp2, #idcomp3, #idcomp4, #idcomp5, #idcomp6, #idcomp7, #idcomp8, #idcomp9, #idcomp10, #idcomp11, #idcomp12, #idcomp0-1, #idcomp6-1').addClass('apparition');
                     }
                     else if(index == 5){
+                        remove_class();
                         $('#contactform_contact, #social1, #social2, #social3, #social4').addClass('apparitionsocial');
                     }
                     else{
 
+                    }
+                    function remove_class(){
+                        $('#presentation').removeClass('active');
+                        $('#idcomp1, #idcomp2, #idcomp3, #idcomp4, #idcomp5, #idcomp6, #idcomp7, #idcomp8, #idcomp9, #idcomp10, #idcomp11, #idcomp12, #idcomp0-1, #idcomp6-1').removeClass('apparition');
+                        $('#contactform_contact, #social1, #social2, #social3, #social4').removeClass('apparitionsocial')
                     }
                 },
 
@@ -51,7 +65,5 @@ $( document ).ready(function() {
                     $('#staticImg').toggleClass('moveUp', index == 4 && direction == 'up');
                 }
             });
-
-
 
   });

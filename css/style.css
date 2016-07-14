@@ -76,6 +76,9 @@
     background: -webkit-linear-gradient(#1FE180, #1FE180);
     background: linear-gradient(#1FE180,#1FE180);
   }
+#slide1{
+
+}
 #section3{
     background: -webkit-gradient(linear, top left, bottom left, from(#FDA72C), to(#DE4A6C));
     background: -webkit-linear-gradient(#FDA72C, #DE4A6C);
@@ -331,8 +334,10 @@ FxN+FXcAAAAAAf//AAJ42mNgZGBg4ANiCQYQYGJgBMIkIGYB8xgACIAAlQAAAHjaY2BgYGQAgmOp
 }
 .MesInfos{
     font-family: inherit;
-    margin-top: 10%
+    color: white;
+    margin-top: 10%;
 }
+
 .slide{
   text-align: center;
 }
