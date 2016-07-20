@@ -30,6 +30,7 @@ $( document ).ready(function() {
                     else if(index == 2){
                         remove_class();
                         $('#presentation').addClass('active');
+                        $('#monavatar').addClass('active');
                     }
                     else if(index == 3){
                         remove_class();
@@ -46,7 +47,7 @@ $( document ).ready(function() {
 
                     }
                     function remove_class(){
-                        $('#presentation').removeClass('active');
+                        $('#presentation,#monavatar').removeClass('active');
                         $('#idcomp1, #idcomp2, #idcomp3, #idcomp4, #idcomp5, #idcomp6, #idcomp7, #idcomp8, #idcomp9, #idcomp10, #idcomp11, #idcomp12, #idcomp0-1, #idcomp6-1').removeClass('apparition');
                         $('#contactform_contact, #social1, #social2, #social3, #social4').removeClass('apparitionsocial')
                     }

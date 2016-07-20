@@ -581,3 +581,10 @@ FxN+FXcAAAAAAf//AAJ42mNgZGBg4ANiCQYQYGJgBMIkIGYB8xgACIAAlQAAAHjaY2BgYGQAgmOp
 .fp-controlArrow.fp-next {
     right: 40px;
 }
+#monavatar{
+    display: block;
+    margin: auto;
+    transform: translateX(-500px);
+    opacity: 0;
+    margin-top: 10%;
+}
