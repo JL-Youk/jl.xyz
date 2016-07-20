@@ -346,7 +346,7 @@ FxN+FXcAAAAAAf//AAJ42mNgZGBg4ANiCQYQYGJgBMIkIGYB8xgACIAAlQAAAHjaY2BgYGQAgmOp
 }
 #idcomp{
   text-align: center;
-  margin-top: 15%;
+  margin-top: 14%;
 }
 #idcomp1 {
   opacity: 0;
@@ -591,9 +591,13 @@ FxN+FXcAAAAAAf//AAJ42mNgZGBg4ANiCQYQYGJgBMIkIGYB8xgACIAAlQAAAHjaY2BgYGQAgmOp
 .liste_rea{
     font-size: 18px;
 }
-.liste_rea li{
+.liste_rea_li{
     background-color: aliceblue;
     margin: 10px;
     padding: 5px;
     border-radius: 15px;
+    cursor: pointer;
+}
+.liste_rea_li:hover{
+    background-color: #c2d9ec;
 }
