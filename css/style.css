@@ -575,3 +575,9 @@ FxN+FXcAAAAAAf//AAJ42mNgZGBg4ANiCQYQYGJgBMIkIGYB8xgACIAAlQAAAHjaY2BgYGQAgmOp
   -o-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
 }
+.fp-controlArrow.fp-prev{
+    left: 40px;
+}
+.fp-controlArrow.fp-next {
+    right: 40px;
+}
