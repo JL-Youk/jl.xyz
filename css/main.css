@@ -235,7 +235,6 @@ main {
     /* Style adjustments for high resolution devices */
 }
 
-
 @media print {
     * {
         background: transparent !important;
