@@ -355,89 +355,89 @@ FxN+FXcAAAAAAf//AAJ42mNgZGBg4ANiCQYQYGJgBMIkIGYB8xgACIAAlQAAAHjaY2BgYGQAgmOp
 #idcomp2 {
   opacity: 0;
   transform: translateY(500px);
-  -webkit-transition-delay: 100ms; /* Safari */
-  -o-transition-delay: 100ms; /* Safari */
-  -moz-transition-delay: 100ms; /* Safari */
+  -webkit-transition-delay: 100ms; 
+  -o-transition-delay: 100ms; 
+  -moz-transition-delay: 100ms; 
   transition-delay: 100ms;
 }
 #idcomp3 {
   opacity: 0;
   transform: translateY(500px);
-  -webkit-transition-delay: 200ms; /* Safari */
-  -o-transition-delay: 200ms; /* Safari */
-  -moz-transition-delay: 200ms; /* Safari */
+  -webkit-transition-delay: 200ms; 
+  -o-transition-delay: 200ms; 
+  -moz-transition-delay: 200ms; 
   transition-delay: 200ms;
 }
 #idcomp4 {
   opacity: 0;
   transform: translateY(500px);
-  -webkit-transition-delay: 300ms; /* Safari */
-  -o-transition-delay: 300ms; /* Safari */
-  -moz-transition-delay: 300ms; /* Safari */
+  -webkit-transition-delay: 300ms; 
+  -o-transition-delay: 300ms; 
+  -moz-transition-delay: 300ms; 
   transition-delay: 300ms;
 }
 #idcomp5 {
   opacity: 0;
   transform: translateY(500px);
-  -webkit-transition-delay: 400ms; /* Safari */
-  -o-transition-delay: 400ms; /* Safari */
-  -moz-transition-delay: 400ms; /* Safari */
+  -webkit-transition-delay: 400ms; 
+  -o-transition-delay: 400ms; 
+  -moz-transition-delay: 400ms; 
   transition-delay: 400ms;
 }
 #idcomp6 {
   opacity: 0;
   transform: translateY(500px);
-  -webkit-transition-delay: 500ms; /* Safari */
-  -o-transition-delay: 500ms; /* Safari */
-  -moz-transition-delay: 500ms; /* Safari */
+  -webkit-transition-delay: 500ms; 
+  -o-transition-delay: 500ms; 
+  -moz-transition-delay: 500ms; 
   transition-delay: 500ms;
 }
 #idcomp7 {
   opacity: 0;
   transform: translateY(500px);
-  -webkit-transition-delay: 600ms; /* Safari */
-  -o-transition-delay: 600ms; /* Safari */
-  -moz-transition-delay: 600ms; /* Safari */
+  -webkit-transition-delay: 600ms; 
+  -o-transition-delay: 600ms; 
+  -moz-transition-delay: 600ms; 
   transition-delay: 600ms;
 }
 #idcomp8 {
   opacity: 0;
   transform: translateY(500px);
-  -webkit-transition-delay: 700ms; /* Safari */
-  -o-transition-delay: 700ms; /* Safari */
-  -moz-transition-delay: 700ms; /* Safari */
+  -webkit-transition-delay: 700ms; 
+  -o-transition-delay: 700ms; 
+  -moz-transition-delay: 700ms; 
   transition-delay: 700ms;
 }
 #idcomp9 {
   opacity: 0;
   transform: translateY(500px);
-  -webkit-transition-delay: 800ms; /* Safari */
-  -o-transition-delay: 800ms; /* Safari */
-  -moz-transition-delay: 800ms; /* Safari */
+  -webkit-transition-delay: 800ms; 
+  -o-transition-delay: 800ms; 
+  -moz-transition-delay: 800ms; 
   transition-delay: 800ms;
 }
 #idcomp10 {
   opacity: 0;
   transform: translateY(500px);
-  -webkit-transition-delay: 900ms; /* Safari */
-  -o-transition-delay: 900ms; /* Safari */
-  -moz-transition-delay: 900ms; /* Safari */
+  -webkit-transition-delay: 900ms; 
+  -o-transition-delay: 900ms; 
+  -moz-transition-delay: 900ms; 
   transition-delay: 900ms;
 }
 #idcomp11 {
   opacity: 0;
   transform: translateY(500px);
-  -webkit-transition-delay: 1000ms; /* Safari */
-  -o-transition-delay: 1000ms; /* Safari */
-  -moz-transition-delay: 1000ms; /* Safari */
+  -webkit-transition-delay: 1000ms; 
+  -o-transition-delay: 1000ms; 
+  -moz-transition-delay: 1000ms; 
   transition-delay: 1000ms;
 }
 #idcomp12 {
   opacity: 0;
   transform: translateY(500px);
-  -webkit-transition-delay: 1100ms; /* Safari */
-  -o-transition-delay: 1100ms; /* Safari */
-  -moz-transition-delay: 1100ms; /* Safari */
+  -webkit-transition-delay: 1100ms; 
+  -o-transition-delay: 1100ms; 
+  -moz-transition-delay: 1100ms; 
   transition-delay: 1100ms;
 }
 #idcomp0-1{
@@ -447,9 +447,9 @@ FxN+FXcAAAAAAf//AAJ42mNgZGBg4ANiCQYQYGJgBMIkIGYB8xgACIAAlQAAAHjaY2BgYGQAgmOp
 #idcomp6-1{
   opacity: 0;
   transform: translateY(-500px);
-  -webkit-transition-delay: 500ms; /* Safari */
-  -o-transition-delay: 500ms; /* Safari */
-  -moz-transition-delay: 500ms; /* Safari */
+  -webkit-transition-delay: 500ms; 
+  -o-transition-delay: 500ms; 
+  -moz-transition-delay: 500ms; 
   transition-delay: 500ms;
 }
 .apparition {
@@ -517,41 +517,41 @@ FxN+FXcAAAAAAf//AAJ42mNgZGBg4ANiCQYQYGJgBMIkIGYB8xgACIAAlQAAAHjaY2BgYGQAgmOp
 #contactform_contact{
   opacity: 0;
   transform: translateY(-500px);
-  -webkit-transition-delay: 150ms; /* Safari */
-  -o-transition-delay: 150ms; /* Safari */
-  -moz-transition-delay: 150ms; /* Safari */
+  -webkit-transition-delay: 150ms; 
+  -o-transition-delay: 150ms; 
+  -moz-transition-delay: 150ms; 
   transition-delay: 150ms;
 }
 #social1{
   opacity: 0;
   transform: translateX(-500px);
-  -webkit-transition-delay: 300ms; /* Safari */
-  -o-transition-delay: 300ms; /* Safari */
-  -moz-transition-delay: 300ms; /* Safari */
+  -webkit-transition-delay: 300ms; 
+  -o-transition-delay: 300ms; 
+  -moz-transition-delay: 300ms; 
   transition-delay: 300ms;
 }
 #social2{
   opacity: 0;
   transform: translateY(500px);
-  -webkit-transition-delay: 300ms; /* Safari */
-  -o-transition-delay: 300ms; /* Safari */
-  -moz-transition-delay: 300ms; /* Safari */
+  -webkit-transition-delay: 300ms; 
+  -o-transition-delay: 300ms; 
+  -moz-transition-delay: 300ms; 
   transition-delay: 300ms;
 }
 #social3{
   opacity: 0;
   transform: translateY(500px);
-  -webkit-transition-delay: 300ms; /* Safari */
-  -o-transition-delay: 300ms; /* Safari */
-  -moz-transition-delay: 300ms; /* Safari */
+  -webkit-transition-delay: 300ms; 
+  -o-transition-delay: 300ms; 
+  -moz-transition-delay: 300ms; 
   transition-delay: 300ms;
 }
 #social4{
   opacity: 0;
   transform: translateX(500px);
-  -webkit-transition-delay: 300ms; /* Safari */
-  -o-transition-delay: 300ms; /* Safari */
-  -moz-transition-delay: 300ms; /* Safari */
+  -webkit-transition-delay: 300ms; 
+  -o-transition-delay: 300ms; 
+  -moz-transition-delay: 300ms; 
   transition-delay: 300ms;
 }
 .apparitionsocial{
@@ -566,9 +566,9 @@ FxN+FXcAAAAAAf//AAJ42mNgZGBg4ANiCQYQYGJgBMIkIGYB8xgACIAAlQAAAHjaY2BgYGQAgmOp
 }
 #social1:hover, #social2:hover, #social3:hover, #social4:hover {
   transform: translateY(-20px)!important;
-  -webkit-transition-delay: 0ms; /* Safari */
-  -o-transition-delay: 0ms; /* Safari */
-  -moz-transition-delay: 0ms; /* Safari */
+  -webkit-transition-delay: 0ms; 
+  -o-transition-delay: 0ms; 
+  -moz-transition-delay: 0ms; 
   transition-delay: 0ms;
   -webkit-transition: all 0.2s ease-out;
   -moz-transition: all 0.2s ease-out;
