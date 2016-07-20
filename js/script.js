@@ -1,6 +1,6 @@
 $( document ).ready(function() {
 	$("#hiheyhello").typed({
-        strings: ["Hi", "Hey","Hello","Bonjour","Hallo","Salâm","Demat","Ola","Buenos dias","Kalimera","Guten Tag","добър ден","Buongiorno","Bondjoû"],
+        strings: ["Hi", "Hey","Hello","Salut","Bonjour","Hallo","Salâm","Demat","Ola","Buenos dias","Kalimera","Guten Tag","добър ден","Tagazok","Buongiorno","Bondjoû"],
         typeSpeed: 75,
             // time before typing starts
         startDelay: 0,
