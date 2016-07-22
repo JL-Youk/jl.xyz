@@ -37,7 +37,7 @@ $( document ).ready(function() {
                     }
                     else if(index == 4){
                         remove_class();
-                        $('#idcomp1, #idcomp2, #idcomp3, #idcomp4, #idcomp5, #idcomp6, #idcomp7, #idcomp8, #idcomp9, #idcomp10, #idcomp11, #idcomp12, #idcomp0-1, #idcomp6-1').addClass('apparition');
+                        $('#idcomp1, #idcomp2, #idcomp3, #idcomp4, #idcomp5, #idcomp6, #idcomp7, #idcomp8, #idcomp9, #idcomp10').addClass('apparition');
                     }
                     else if(index == 5){
                         remove_class();
