@@ -175,10 +175,21 @@
 		        	<span class="titre_section"><h2>#Contact / Social</h2></span>
 	                <form id="contactform_contact"  method="post" action="formulaire_traitement.php">
 	                	<div style="margin-bottom:50px" class="col-xs-12 hidden-sm hidden-xs"><h3>N'hésitez pas à me contacter ! Remplissez le formulaire et un mail me sera automatiquement envoyé.</h3></div>
-	                	<div class="col-md-4"><input type="text" id="nom" name="nom" placeholder="Nom" /></div>
-	                	<div class="col-md-4"><input type="mail" id="email" name="email" placeholder="Mail" /></div>
-	                	<div class="col-md-4"><input type="text" id="objet" name="objet" placeholder="Objet" /></div>
-	                	<div class="col-md-12"><textarea id="message" name="message" placeholder="Message.."></textarea></div>
+	                	<div class="col-md-4">
+	                		<input class="gate" type="text" id="nom" name="nom"/>
+	                		<label for="nom">Nom :</label>
+	                	</div>
+	                	<div class="col-md-4">
+	                		<input class="gate" type="mail" id="email" name="email"/>
+	                		<label for="email">Mail :</label>
+	                	</div>
+	                	<div class="col-md-4">
+	                		<input class="gate" type="text" id="objet" name="objet"/>
+	                		<label for="objet">Objet :</label>
+	                	</div>
+	                	<div class="col-md-12">
+	                		<textarea id="message" name="message" placeholder="Message.."></textarea>
+	                	</div>
 						<div style="text-align:center;"><input id="submitform" class="btn btn-primary" type="submit" name="envoi" value="Envois" /></div>
 					</form>
 				</div>
