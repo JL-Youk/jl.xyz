@@ -1,6 +1,6 @@
 $( document ).ready(function() {
 	$("#hiheyhello").typed({
-        strings: ["Hi", "Hey","Hello","Salut","Bonjour","Hallo","Salâm","Demat","Ola","Buenos dias","Kalimera","Guten Tag","добър ден","Tagazok","Buongiorno","Bondjoû","herzlich willkommen","welcome","akwaba","欢迎你来","bienvenue","awaa waa atuu","selamat datang","yôkoso","Тавтай морилогтун","witaj"," bem-vindo","välkommen","chào mừng"],
+        strings: ["Hi", "Hey","Hello","Salut","Bonjour","Hallo","Salâm","Demat","Ola","Buenos dias","Kalimera","Guten Tag","добър ден","Tagazok","Buongiorno","Bondjoû","Herzlich willkommen","Welcome","Akwaba","欢迎你来","Bienvenue","Awaa waa atuu","Selamat datang","Yôkoso","Тавтай морилогтун","Witaj"," Bem-vindo","Välkommen","Chào mừng"],
         typeSpeed: 75,
             // time before typing starts
         startDelay: 0,
