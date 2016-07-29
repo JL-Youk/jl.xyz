@@ -38,6 +38,16 @@ $( document ).ready(function() {
                     else if(index == 4){
                         remove_class();
                         $('#idcomp1, #idcomp2, #idcomp3, #idcomp4, #idcomp5, #idcomp6, #idcomp7, #idcomp8, #idcomp9, #idcomp10').addClass('apparition');
+                        $('#bar_remp_1').css({'width':'100%'}).text('100%');
+                        $('#bar_remp_2').css({'width':'99%'}).text('99%');;
+                        $('#bar_remp_3').css({'width':'90%'}).text('90%');;
+                        $('#bar_remp_4').css({'width':'90%'}).text('90%');;
+                        $('#bar_remp_5').css({'width':'80%'}).text('80%');;
+                        $('#bar_remp_6').css({'width':'90%'}).text('90%');;
+                        $('#bar_remp_7').css({'width':'30%'}).text('30%');;
+                        $('#bar_remp_8').css({'width':'80%'}).text('80%');;
+                        $('#bar_remp_9').css({'width':'40%'}).text('40%');;
+                        $('#bar_remp_10').css({'width':'30%'}).text('30%');;
                     }
                     else if(index == 5){
                         remove_class();

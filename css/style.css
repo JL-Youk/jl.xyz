@@ -656,3 +656,23 @@ FxN+FXcAAAAAAf//AAJ42mNgZGBg4ANiCQYQYGJgBMIkIGYB8xgACIAAlQAAAHjaY2BgYGQAgmOp
 #message:focus{
   background: #ffffff;
 }
+
+.barChart__bar{
+    display: block;
+    overflow: hidden;
+    background: #EEEEEE;
+    height: 15px;
+    margin: 2px;
+    margin-top: 5px;
+}
+.barChart__rempl{
+    display: block;
+    overflow: hidden;
+    background: #61DAC6;
+    height: 15px;
+    width: 0%;
+    transition: all 5s ease-in-out;
+    -moz-transition: all 5s ease-in-out;
+    -o-transition: all 5s ease-in-out;
+    -webkit-transition: all 5s ease-in-out;
+}
