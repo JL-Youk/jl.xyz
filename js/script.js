@@ -32,10 +32,8 @@ $( document ).ready(function() {
                         $('#presentation').addClass('active');
                         $('#monavatar').addClass('active');
                     }
+    
                     else if(index == 3){
-                        remove_class();
-                    }
-                    else if(index == 4){
                         remove_class();
                         $('#idcomp1, #idcomp2, #idcomp3, #idcomp4, #idcomp5, #idcomp6, #idcomp7, #idcomp8, #idcomp9, #idcomp10').addClass('apparition');
                         $('#bar_remp_1').css({'width':'100%'}).text('100%');
@@ -49,7 +47,7 @@ $( document ).ready(function() {
                         $('#bar_remp_9').css({'width':'40%'}).text('40%');;
                         $('#bar_remp_10').css({'width':'30%'}).text('30%');;
                     }
-                    else if(index == 5){
+                    else if(index == 4){
                         remove_class();
                         $('#contactform_contact, #social1, #social2, #social3, #social4').addClass('apparitionsocial');
                     }
